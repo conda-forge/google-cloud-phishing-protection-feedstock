@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-phishingprotection
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-phishing-protection-feedstock/blob/master/LICENSE.txt)
 
 Summary: Phishing Protection API client library
+
+Development: https://github.com/googleapis/python-phishingprotection
+
+Documentation: https://googleapis.dev/python/phishingprotection/latest/index.html
 
 Google Cloud’s Phishing Protection countermeasure platform helps to detect phishing attacks against your users. Phishing Protection API enables you to submit URLs suspected to be unsafe. Any URLs that are confirmed to match the Safe Browsing Policies will be added to the Safe Browsing list, which is used by over three billion devices to show warnings when a user visits a known unsafe web resource. Common sources of these URLs are customer reports or internal phishing detection results.
 See the [quick start guide](https://googleapis.dev/python/phishingprotection/latest/index.html#quick-start).

@@ -1,6 +1,6 @@
 {% set name = "google-cloud-phishing-protection" %}
-{% set version = "1.6.4" %}
-{% set sha256 = "bce0d84a659b436c20019f8e2d9218a1bff3aa0f7df0f46a9108bcb9e1e15832" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "64ab18669862066d1386dfa43160c992ce8db446853cdacd0069432141c1e4ef" %}
 
 package:
   name: {{ name|lower }}

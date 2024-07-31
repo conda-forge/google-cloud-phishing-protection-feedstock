@@ -1,13 +1,13 @@
 {% set name = "google-cloud-phishing-protection" %}
-{% set version = "1.11.4" %}
-{% set sha256 = "bccab8bfb953c4b26862b00af9012c689ac64edc7e5985da6d707a3b12e8bceb" %}
+{% set version = "1.11.5" %}
+{% set sha256 = "ef04b717339ab56d5ad659ba8df2221f60bae6dd6d692c7195cbcbb29a36020e" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
